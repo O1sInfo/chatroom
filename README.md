@@ -5,8 +5,8 @@ A Erogenous Chat Room by Python.
 ### Usage:
 
 * `git clone https://github.com/O1sInfo/chatroom.git`
-* `cd server` and run `python3 server.py [-h]`
-* `cd client` and run `python3 client.py [-h]`
+* `Run server` and run `python3 server.py [-h]`
+* `Run client` and run `python3 client.py [-h]`
 
 ### A Breif Introduction
 
