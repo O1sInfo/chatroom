@@ -6,7 +6,7 @@ A Erogenous Chat Room by Python.
 
 * `git clone https://github.com/O1sInfo/chatroom.git`
 * `cd server` and run `python3 server.py [-h]`
-* `cd client` and run `python3 client.py [h]`
+* `cd client` and run `python3 client.py [-h]`
 
 ### A Breif Introduction
 
@@ -21,4 +21,4 @@ A multi-user online chat room. Evey client connect to server using a individual 
 * Exit the current room. And you will join the Lobby. Ex: `/exit`
 * Disconnect server, exit the chat app. Ex:`/bye`
 
-***Thanking for your using. ^_^***  
+***Thanks for your using. ^_^***  
