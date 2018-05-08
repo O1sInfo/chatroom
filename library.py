@@ -47,33 +47,6 @@ def color_welcome(msg):
     return BOLD + UNDERLINE + colors["yellow"] + msg + ENDC + ENDC + ENDC
 
 
-def client_send(s, data):
-    """
-    Try send data to server using socket s.
-    """
-    try:
-        s.sendall(data)
-    except error:
-        print('**[Error]** sendall data socket.error')
-
-
-def client_recv(s):
-    """
-    Receive 4KB data from server and decode and return message after splitting using delimiter '|'
-    """
-    try:
-        recv = s.recv(4096)
-        recv = str(recv, 'utf-8')
-    except UnicodeDecodeError:
-        print('**[Warning]** Unexpected byte stream in received data')
-    except error:
-        print('**[Warning]** recv_data socket.error')
-    if recv[-1:] == '\n':
-        recv = recv[:-1]
-    print(recv)
-    return recv
-
-
 def send_data(s, data):
     """
     Send data to client via socket s
